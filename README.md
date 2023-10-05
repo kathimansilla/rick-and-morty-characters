@@ -1,8 +1,13 @@
-# React + Vite
+# Rick and Morty's characters
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+On this page, you can search for characters from Rick and Morty and get information about them. There are two filters, one to search for characters by their name and another to select them based on their species. Additionally, if you click on a character, they will appear individually with extra information.
 
-Currently, two official plugins are available:
+## ⚒️ Tools: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React JS 
+- VSC 
+- GitHub
+
+## 👩🏻‍💻 Student: **Kathi Mansilla** @kathimansilla 
+
+© Adalab 2023 | Trótula Promotion
