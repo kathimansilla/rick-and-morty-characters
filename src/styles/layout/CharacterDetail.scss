@@ -1,0 +1,75 @@
+.characterDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+    &__item {
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 0 15px rgb(193, 208, 52);
+      border: rgb(90, 202, 210) solid 2px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      background-color: #000000;
+      margin-top: 10px;
+      padding-bottom: 5px;
+      overflow: hidden;
+      &--img {
+        max-width: 200px;
+      }
+      &--name {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: rgb(181, 247, 181);
+      }
+      &--text {
+        font-size: 1rem;
+        color: rgb(181, 247, 181);
+      }
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .characterDetail {
+      background-image: url('../../images/rick2.jpeg');
+      background-position: left 10px bottom;
+      background-repeat: no-repeat;
+      background-size: 210px;
+      &__item {
+        width: 200px;
+        max-width: none;
+        &--img {
+          width: 200px;
+          max-width: none;
+        }
+        &--name {
+          font-size: 1.3rem;
+        }
+        &--text {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .characterDetail {
+      background-size: 270px;
+      &__item {
+        width: 250px;
+        padding-bottom: 10px;
+        &--img {
+          width: 250px;
+        }
+        &--name {
+          font-size: 1.5rem;
+        }
+        &--text {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+  
